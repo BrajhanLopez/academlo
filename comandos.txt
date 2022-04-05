@@ -1,0 +1,85 @@
+rm -rf .git  // borrar repositorio
+
+git init     // inicializa repositorio
+
+git add .   // agregar archivos
+
+git commit -m "mensaje"  // agrega version al archivo
+
+git log // muestra todas las versiones    --graph
+
+git diff *Archivocommit* // compara archivos
+
+git reset *Archivocommit* --hard// regresa a una version anterior
+
+git checkout main  // va hacia la ultima version
+
+git branch *nombre* // crea otra rama para trabajar
+
+git checkout -b *nombre rama* // crea otra rama para trabajar
+ 
+git branch // te indica en que rama estas trabajando
+
+git branch -D // borra la rama
+
+git branch -m developer dev // renombra la rama
+
+
+git merge  **  //fusiona
+
+git merge --abort // detiene la fusion en caso de errores
+
+
+GITHUB
+
+PUSH envia datos a github
+PULL actualiza el github para poder verlo
+
+
+git push // actualiza repositorio github
+
+git push origin encabezado // envia rama el github
+git push origin encabezado --set-upstrean // cuando es primera vez
+
+git pull // actualiza repositorio clonado
+
+gitk  // version visual de git
+CAMBIAR EMAIL
+
+git config --global user.email "ingresa email"
+
+
+
+PARA ACTUALIZAR RAMAS CREADAS DIRECTAMENTE EN GITHUB
+
+git fetch
+git branch -r
+
+COLABORADOR -- CREANDO RAMAS Y SUBIRLA A GITHUB
+*crea las ramas*
+*situate en la rama que deseas subir*
+git commit --allow-empty -m "mensaje"
+git push --set-upstream origin *rama*
+
+FORK CLONA TODO UN RESPOSITORIO EXTERNO
+
+
+
+importante
+
+
+# Primero: Guardar la URL del repositorio de GitHub
+# con el nombre de origin
+git remote add origin URL
+
+# Segundo: Renombrar la rama master
+git branch -M master main
+
+# Tercero: Traer la versión del repositorio remoto e
+# hice el merge para crear un commit con los archivos
+# de ambas partes.
+git pull origin main --allow-unrelated-histories
+
+# Cuarto: hacer el git push para guardar
+# los cambios de nuestro repositorio local en GitHub:
+git push origin main
