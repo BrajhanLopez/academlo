@@ -8,7 +8,7 @@ font-family: 'Poppins', sans-serif;
 .header {
 background-color: #197F5B;
 display: flex;
-height: 100px;
+height: 80px;
 width: 100%;
 justify-content: space-between;
 position: fixed;
@@ -18,7 +18,7 @@ position: fixed;
 
 .ul {
     display: flex;
-    line-height: 100px;
+    line-height: 80px;
     padding: 0 80px 0 0;
 
 }
@@ -36,8 +36,20 @@ position: fixed;
 }
 
 .main {
-padding: 100px 0 0 0;
 
+
+
+padding: 80px 0 0 0;
+
+
+}
+
+.section1 {
+
+    background-image: url(/assets/image/homedesktop.png);
+    background-repeat: no-repeat;
+    background-color: #197F5B;
+    background-position: center -80px;
 
 }
 
@@ -55,7 +67,132 @@ font-size: 30px;
 display: none;
 }
 
-@media (max-width: 768px) {
+.titulo {
+display: flex;
+justify-content: center;
 
+
+}
+
+.titulo p {
+    padding: 0 10px;
+   
+}
+
+.p1{
+    color: white;
+    font-size: 80px;
     
 }
+.p2 {
+    color: #EF9919;
+    font-size: 80px;
+    font-weight: bold;
+  
+
+}
+
+@media (max-width: 768px) {
+
+    .header {
+        background-color: #197F5B;
+        height: 60px;
+        position: fixed;
+        
+        }
+        
+.nav{
+    
+    width: 100%;
+    margin: 60px 0%;
+    transition: 0.5s;
+   
+}
+
+        
+        .ul {
+            flex-direction: column;
+            align-items: center;
+            line-height: 60px;
+            background-color: darkslategrey;
+            padding: 0;
+           
+            
+        }
+        
+        .li {
+            list-style: none;
+            
+        }
+        
+        .a{
+            margin: 25px;
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+        
+        .main {
+        
+        
+        
+        padding: 60px 0 0 0;
+        
+        
+        }
+        
+        .section1 {
+        
+            background-image: url(/assets/image/Estructura\ home\ mobile.png);
+            background-repeat: no-repeat;
+            background-color: #197F5B;
+            background-position: center -20px;
+        
+        }
+        
+        .a:hover {
+        color: #EF9919;
+        
+        
+        }
+        
+        .button {
+        position: fixed;
+        line-height: 60px;
+        left: 90%;
+        display: block;
+        }
+        
+        .titulo {
+        display: flex;
+        justify-content: center;
+        
+        
+        }
+        
+        .titulo p {
+            padding: 0 10px;
+           
+        }
+        
+        .p1{
+            color: white;
+            font-size: 32px;
+            
+        }
+        .p2 {
+            color: #EF9919;
+            font-size: 32px;
+            font-weight: bold;
+          
+        
+        } 
+
+.activarboton{
+    margin: 60px 100%;
+transition: 0.5s;
+}
+        
+
+}
+
