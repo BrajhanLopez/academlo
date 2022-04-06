@@ -104,8 +104,9 @@ justify-content: center;
 .nav{
     
     width: 100%;
-    margin: 60px 0%;
-    transition: 0.5s;
+    margin: 60px 100%;
+    
+    
    
 }
 
@@ -189,8 +190,10 @@ justify-content: center;
         } 
 
 .activarboton{
-    margin: 60px 100%;
-transition: 0.5s;
+    margin: 60px 0%;
+    transition: 0.5s;
+    
+    
 }
         
 
