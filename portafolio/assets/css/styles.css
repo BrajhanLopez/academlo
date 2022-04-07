@@ -92,6 +92,19 @@ justify-content: center;
 
 }
 
+
+/*DE AQUI MODIFICAMOS*/
+.subtitulo {
+color: white;
+font-size: 50px;
+
+}
+
+.subtitulodiv {
+text-align: center;
+}
+
+
 @media (max-width: 768px) {
 
     .header {
