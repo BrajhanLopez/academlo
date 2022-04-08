@@ -12,9 +12,14 @@ height: 80px;
 width: 100%;
 justify-content: space-between;
 position: fixed;
+z-index: 20;
 
 }
 
+.nav {
+    max-width: 1200px;
+    
+}
 
 .ul {
     display: flex;
@@ -48,7 +53,7 @@ padding: 80px 0 0 0;
 
     background-image: url(/assets/image/homedesktop.png);
     background-repeat: no-repeat;
-    background-color: #197F5B;
+   /* background-color: #197F5B;*/
     background-position: center -80px;
 
 }
@@ -104,9 +109,7 @@ font-size: 50px;
 text-align: center;
 }
 
-.section1 {
-    border: solid;
-}
+
 
 .caja1 {
     
@@ -123,6 +126,7 @@ text-align: center;
     -webkit-box-shadow: -1px 10px 4px -5px rgba(255,255,255,0.22);
     -moz-box-shadow: -1px 10px 4px -5px rgba(255,255,255,0.22);
     box-shadow: -1px 10px 4px -5px rgba(255,255,255,0.22);
+    z-index: 10;
 }
 .negro {
     font-size: 20px;
@@ -151,6 +155,7 @@ text-align: center;
     -webkit-box-shadow: -1px 10px 4px -5px rgba(255,255,255,0.22);
     -moz-box-shadow: -1px 10px 4px -5px rgba(255,255,255,0.22);
     box-shadow: -1px 10px 4px -5px rgba(255,255,255,0.22);
+    z-index: 10;
 }
 .negro2 {
   font-size: 22px;
@@ -171,19 +176,182 @@ text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
+    width: 350px;
     height: 500px;
 }
 
-.link {
+
+
+.div-link {
+    text-align: center;
+    line-height: 95px;
     position: absolute;
     background-color: white;
-   
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     border-radius: 50px;
-    left: 50%;
+    left: 28%;
+    top: 90%;
+  
 }
+
+.div-link2 {
+    text-align: center;
+    line-height: 105px;
+    position: absolute;
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    left: 48%;
+    top: 101%;
+  
+}
+
+
+.div-link3 {
+    text-align: center;
+    line-height: 105px;
+    position: absolute;
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    left: 67%;
+    top: 90%;
+  
+}
+
+.twi {
+    width: 45px;
+    height: 45px;
+}
+
+.insta {
+    width: 45px;
+    height: 45px;
+
+}
+
+
+.link {
+    width: 40px;
+    height: 40px;
+
+}
+
+
+.section2 {
+padding: 0 80px;
+}
+
+.section2 h2 {
+
+    font-size: 50px;
+    font-weight: semi-bold;
+    color: #413F40;
+}
+
+.section2 p {
+    padding-left: 30px;
+    border-left: solid #197F5B;
+    font-size: 16px;
+    font-weight: regular;
+    text-align: justify;
+}
+
+.myButton {
+    color:#ffffff;
+    text-decoration:none;
+	padding-right: 20px;
+   
+
+}
+
+.cv {
+    display: flex;
+  justify-content: space-around;
+  align-items: center;
+   background-color:#197f5b;
+    border-radius:28px;
+	border:1px solid #197f5b;
+    width: 220px;
+    height: 55px;
+    line-height: 42px;
+    margin-left: auto;
+    margin-right: auto;
+    
+       
+}
+
+
+.prueba {
+
+    background-image: url(/assets/image/arrow.svg);
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+    filter: invert(100%) sepia(0%) saturate(7450%) hue-rotate(327deg) brightness(134%) contrast(94%);
+
+   
+}
+
+.popa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: -150px;
+    background-color: #F9F5F2;
+    height: 190px;
+    width: 900px;
+
+}
+
+.popa p {
+font-size: 25px;
+font-weight: bold;
+color: #413F40;
+text-align: center;
+
+}
+
+.css-input {
+    margin-left: 70px;
+    padding: 15px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-width: 0px;
+    width: 760px;
+    height: 50px;
+    border-color: #CCCCCC;
+    background-color: #F9F5F2;
+    color: #a9a1a1;
+    border-style: solid;
+    border-radius: 15px;
+    box-shadow: 0px 0px 4px rgba(66,66,66,.33);
+    text-shadow: -50px 0px 30px rgba(66,66,66,.0);
+}
+
+
+.btn-listo {
+    width: 200px;
+    text-align: center;
+    position: relative;
+    left: 69.8%;
+    bottom:48.5px;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    color: #ffffff;
+    font-size: 18px;
+    background: #197f5b;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
 
 
 
