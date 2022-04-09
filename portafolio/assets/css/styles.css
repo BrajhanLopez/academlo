@@ -421,13 +421,16 @@ text-align: center;
     font-size: 50px;
     font-weight: semi-bold;
     color: #413F40;
+    
 }
 
 .div-habilidades {
+    
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 0 20px;
+    padding: 0 230px;
+    gap: 10px;
 
 }
 
@@ -438,6 +441,186 @@ text-align: center;
 }
 
 
+.progressweb {
+    
+    border-radius: 10px;
+    width: 820px;
+   
+}
+.progressweb::-webkit-progress-bar {
+
+    background: #F9F5F2;
+    border-radius: 10px;
+    
+    }
+
+    .progressweb::-webkit-progress-value {
+
+        background: #197F5B;
+        border-radius: 10px;
+        
+        }
+
+        .porhabi {
+
+            color:#197F5B; 
+            font-weight: normal;
+            margin-left: 500px;
+            font-size: 18px;
+        }
+
+        .porhabi2 {
+
+            color:#197F5B; 
+            font-weight: normal;
+            margin-left: 580px;
+            font-size: 18px;
+        }
+
+        .porhabi3 {
+
+            color:#197F5B; 
+            font-weight: normal;
+            margin-left: 600px;
+            font-size: 18px;
+        }
+
+        .porhabi4 {
+
+            color:#197F5B; 
+            font-weight: normal;
+            margin-left: 450px;
+            font-size: 18px;
+        }
+
+
+        .experiencia h2 {
+           
+            text-align: center;
+            font-size: 50px;
+             font-weight: semi-bold;
+            color: #413F40;
+            
+        }
+
+        .experiencia {
+            background-color: #F9F5F2;
+            height: 480px;
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+
+       
+
+.interactive{
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenwi {
+    width: 150px;
+    height: 150px;
+    margin-bottom: -20px;
+ 
+}
+
+.exptext {
+   
+   font-size: 25px;
+   font-weight: semi-bold;
+    color: #413F40;
+}
+
+.anual {
+    font-size: 25px;
+    color: #413F40;
+    font-weight: bolder;
+}
+
+
+.experiencia-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.porta {
+    height: 444px;
+    width: 400px;
+}
+
+.portafolio-img{
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.portafolio-img{
+padding: 0 20px;
+
+}
+.porta2 {
+    height: 444px;
+    width: 400px;
+    margin: 20px 25px;
+}
+
+#webdev {
+    text-align: center;
+}
+
+.div-contacto {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+
+.imgcontacto {
+height: 80px;
+width: 80px;
+box-sizing: content-box;
+background-color: #F9F5F2;
+border: solid 40px #F9F5F2;
+border-radius: 80px;
+}
+
+.titu {
+font-size: 20px;
+font-weight: bold;
+color: #413F40;
+
+}
+
+
+.dato {
+    font-size: 20px;
+    color: #a9a1a1;
+}
+
+.footer{
+    background-color: #197F5B;
+    height: 120px;
+    width: 100%;
+    text-align: center;
+}
+
+.nom {
+color: white;
+font-size: 40px;
+}
+
+.derechos {
+    color: white;
+    font-size: 20px;
+}
 @media (max-width: 768px) {
 
     .header {
