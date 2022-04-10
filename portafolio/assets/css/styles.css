@@ -14,11 +14,12 @@ justify-content: space-between;
 position: fixed;
 z-index: 20;
 
+
 }
 
 .nav {
     max-width: 1200px;
-    
+    margin-right: 50px;
 }
 
 .ul {
@@ -242,7 +243,7 @@ text-align: center;
 
 
 .section2 {
-padding: 0 80px;
+padding: 0 150px;
 }
 
 .section2 h2 {
@@ -620,6 +621,12 @@ font-size: 40px;
 .derechos {
     color: white;
     font-size: 20px;
+}
+
+.a1 {
+color: #EF9919;
+
+
 }
 @media (max-width: 768px) {
 
