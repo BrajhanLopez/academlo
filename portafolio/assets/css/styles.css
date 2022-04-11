@@ -4,6 +4,9 @@ padding: 0;
 box-sizing: border-box;
 font-family: 'Poppins', sans-serif; 
 }
+html{
+    scroll-behavior: smooth;
+}
 
 .header {
 background-color: #197F5B;
@@ -13,7 +16,6 @@ width: 100%;
 justify-content: space-between;
 position: fixed;
 z-index: 20;
-
 
 }
 
@@ -50,14 +52,19 @@ padding: 80px 0 0 0;
 
 }
 
-.section1 {
 
-    background-image: url(/assets/image/homedesktop.png);
-    background-repeat: no-repeat;
-   /* background-color: #197F5B;*/
-    background-position: center -80px;
+
+.imagenfondo {
+position: absolute;
+z-index: -1;
+left: 50%;
+transform: translate(-50%, 0);
+margin-top: -5%;
 
 }
+
+
+
 
 .a:hover {
 color: #EF9919;
@@ -76,7 +83,7 @@ display: none;
 .titulo {
 display: flex;
 justify-content: center;
-
+padding-top: 60px;
 
 }
 
@@ -88,13 +95,13 @@ justify-content: center;
 .p1{
     color: white;
     font-size: 80px;
-    
+   
 }
 .p2 {
     color: #EF9919;
     font-size: 80px;
     font-weight: bold;
-  
+    
 
 }
 
@@ -103,11 +110,12 @@ justify-content: center;
 .subtitulo {
 color: white;
 font-size: 50px;
-
+z-index: 20;
 }
 
 .subtitulodiv {
 text-align: center;
+z-index: 20;
 }
 
 
@@ -120,9 +128,7 @@ text-align: center;
     height: 75px;
     text-align: center;
     position: absolute;
-    left: 28%;
-   top: 50%;
-  
+    margin: 0 425px;
     
     -webkit-box-shadow: -1px 10px 4px -5px rgba(255,255,255,0.22);
     -moz-box-shadow: -1px 10px 4px -5px rgba(255,255,255,0.22);
@@ -149,8 +155,7 @@ text-align: center;
     height: 75px;
     text-align: center;
     position: absolute;
-    left: 61%;
-    bottom: 200px;
+    margin: -120px -35px;
   
     
     -webkit-box-shadow: -1px 10px 4px -5px rgba(255,255,255,0.22);
@@ -163,6 +168,13 @@ text-align: center;
   line-height: 45px;
 }
 
+
+.ejemplo{
+    position: relative;
+    right: 0;
+    bottom: 0;
+    text-align: right;
+}
 
 .mostaza2{
   color: #EF9919;
@@ -179,6 +191,10 @@ text-align: center;
     margin-right: auto;
     width: 350px;
     height: 500px;
+    margin-top: -5%;
+   
+    
+    
 }
 
 
@@ -191,8 +207,8 @@ text-align: center;
     width: 70px;
     height: 70px;
     border-radius: 50px;
-    left: 28%;
-    top: 90%;
+    left: 31%;
+    top: 75%;
   
 }
 
@@ -205,7 +221,7 @@ text-align: center;
     height: 70px;
     border-radius: 50px;
     left: 48%;
-    top: 101%;
+    top: 85%;
   
 }
 
@@ -218,8 +234,8 @@ text-align: center;
     width: 70px;
     height: 70px;
     border-radius: 50px;
-    left: 67%;
-    top: 90%;
+    left: 64%;
+    top: 75%;
   
 }
 
@@ -243,7 +259,7 @@ text-align: center;
 
 
 .section2 {
-padding: 0 150px;
+padding: 0px 150px;
 }
 
 .section2 h2 {
@@ -429,9 +445,12 @@ text-align: center;
     
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    padding: 0 230px;
+    justify-content: center;
+    
+    width: 820px;
+    margin: 0 auto;
     gap: 10px;
+    
 
 }
 
@@ -611,6 +630,7 @@ color: #413F40;
     height: 120px;
     width: 100%;
     text-align: center;
+    
 }
 
 .nom {
@@ -628,6 +648,17 @@ color: #EF9919;
 
 
 }
+
+section[id]{
+
+    scroll-margin-top: 80px;
+}
+
+
+
+
+
+
 @media (max-width: 768px) {
 
     .header {
@@ -735,3 +766,165 @@ color: #EF9919;
 
 }
 
+
+@media (min-width: 1200px) {
+
+.foto{
+    margin-top: 1%;
+
+}
+
+ .caja1 {
+   position: absolute;
+    top: 47%;
+    left: -17%;
+ }
+
+ .caja2 {
+    position: absolute;
+    left: 69%;
+    top: 85%;
+
+ }
+ .div-link {
+    position: absolute;
+    margin: 250px 0 0 -10px;
+
+}
+
+
+.div-link3 {
+position: absolute;
+margin: 250px 0 0 0px;
+
+}
+
+.div-link2 {
+position: absolute;
+margin-top: 230px;
+
+}
+
+ 
+
+
+}
+
+@media (min-width: 1365px) {
+
+.foto {
+
+    margin-top: -5%;
+}
+
+    .caja1 {
+        position: relative;
+        left: -100px;
+        top: 60px;
+      }
+     
+      .caja2 {
+        position: absolute;
+        left: 66%;
+        top: 130%;
+     
+      }
+
+
+
+    .div-link {
+        position: absolute;
+        margin: 500px 0 0 0px;
+
+    }
+   
+   
+   .div-link3 {
+    position: absolute;
+    margin: 500px 0 0 0px;
+   
+   }
+
+   .div-link2 {
+    position: absolute;
+   margin-top: 540px;
+   
+   }
+
+
+}
+
+
+@media (min-width: 1439px) {
+
+   .caja1 {
+position: relative;
+left: 40px;
+
+
+
+   }
+
+    .caja2{
+        position: absolute;
+        top: 90%;
+        left: 1050px;
+    }
+    
+        .div-link {
+            position: absolute;
+            margin: 400px 0 0 30px;
+    
+        }
+       
+       
+       .div-link3 {
+        position: absolute;
+        margin: 400px 0 0 -20px;
+       
+       }
+    
+       .div-link2 {
+        position: absolute;
+       margin-top: 310px;
+       
+       }
+    
+    
+    }
+
+
+    @media (min-width: 1919px) {
+
+        .caja1{
+            position: relative;
+           left: 8% ;
+        }
+    
+        .caja2{
+            position: absolute;
+            top: 82%;
+            left: 62%;
+        }
+        
+            .div-link {
+                position: absolute;
+                margin: 250px 0px 0 130px;
+        
+            }
+           
+           
+           .div-link3 {
+            position: absolute;
+            margin: 250px 0 0 -100px;
+           
+           }
+        
+           .div-link2 {
+            position: absolute;
+           margin-top: 240px;
+           
+           }
+        
+        
+        }
