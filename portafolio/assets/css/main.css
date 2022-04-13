@@ -3,9 +3,11 @@ html{
 }
 
 .main {
-
     background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);
 }
+
+
+
 
 
 
@@ -16,7 +18,7 @@ html{
     background-repeat: no-repeat;
     background-position: center top;
     height: 1200px;
-
+   
 }
 
 .div-contenedor {
@@ -371,7 +373,10 @@ grid-template-columns: 250px 1fr 1fr 250px;
                
             }
 
+.habilidades {
 
+    background-color: #F9F5F2;
+}
 
 
             .habilidades h2 {
@@ -563,14 +568,16 @@ grid-template-columns: 250px 1fr 1fr 250px;
             }
 
             .footer{
+            
+
                 background-color: #197F5B;
                 height: 120px;
-                width: 100%;
+                
                 display: flex;
                 text-align: center;
                 flex-direction: column;
                 justify-content: flex-end;
-                
+               width: 100%;
             }
             
             .nom {
@@ -662,23 +669,7 @@ border-radius: 0.2em;
 }
 
 
-.animacio {
-display: block;
-white-space: nowrap;
-border-right: 4px solid;
-width: 86ch;
-animation: typing 2s steps(86), blink .5s infinite step-end alternate;
-overflow: hidden;
-}
 
-@keyframes typing {
-    from { width: 0; }
-}
-
-@keyframes blink {
-50% {border-color: transparent;}
-
-}
 
 .div-link:hover {
     
@@ -698,185 +689,9 @@ background-color: #EF9919;
     cursor: pointer;
     }
 
-
-    @media (max-width: 768px) {
-
-
-        .header {
-            height: 60px;
-                       
-            }
-
-            .ul {
-            flex-direction: column;
-            background-color: #2c3e50;
-            position: fixed;
-            left: 0;
-            top: 60px;
-            width: 100%;
-            align-items: center;
-            padding: 0;
-            height: calc(100% - 60px);
-            overflow-y: auto;
-
-            left: 100%;
-            transition: left 0.3s;
-            }
-
-            .li {
-                line-height: 70px;
-
-            }
-            .button {
-                display: block;
-
-            }
-            
-            .activarboton{
-               left: 0;
-                
-                
-            }
-
-            .home-section {
-
-                background-image: url("/assets/image/Estructurahome mobile.png");
-                background-repeat: no-repeat;
-                background-position: center top;
-                
-            
-            }
-            
-            .div-contenedor {
-                width: 500px;
-                height: 600px;
-                border: solid 1px #000;
-                margin-left: auto;
-                margin-right: auto;
-                display: grid;
-                grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-                grid-template-columns: 1fr 1fr 1fr 1fr;
-                
-                }
-                
-                
-                  
-                #item-0 {
-                
-                    border: solid 1px #000;
-                   grid-row-start: 1;
-                   grid-column-start: 1;
-                
-                   grid-row-end: 2;
-                   grid-column-end: 5;
-                   
-                }
-                #item-1 {
-                
-                    border: solid 1px #000;
-                   grid-row-start: 4;
-                   grid-column-start: 2;
-                border: solid 1px #000;
-                   grid-row-end: 6;
-                   grid-column-end: 4;
-                   justify-self: center;
-                   align-self: center;
-                }
-                #item-2 {
-                
-                    border: solid 1px #000;
-                   grid-row-start: 3;
-                   grid-column-start: 1;
-                
-                   grid-row-end: 4;
-                   grid-column-end: 5;
-                   
-                }
-                #item-3 {
-                
-                    border: solid 1px #000;
-                   grid-row-start: 2;
-                   grid-column-start: 1;
-                
-                   grid-row-end: 3;
-                   grid-column-end: 5;
-                   text-align: center;
-                }
-                #item-4 {
-                
-                   
-                    border: solid 1px #000;
-                   grid-row-start: 4;
-                   grid-column-start: 1;
-                
-                   grid-row-end: 6;
-                   grid-column-end: 2;
-                    justify-self: end;
-                   
-                }
-                #item-5 {
-                
-                    border: solid 1px #000;
-                   grid-row-start: 4;
-                   grid-column-start: 4;
-                
-                   grid-row-end: 6;
-                   grid-column-end: 5;
-                   align-self: center;
-                }
-                #item-6 {
-                
-                    border: solid 1px #000;
-                   grid-row-start: 6;
-                   grid-column-start: 1;
-                
-                   grid-row-end: 7;
-                   grid-column-end: 2;
-                
-                   justify-self: center;
-                   
-                }
-                #item-7 {
-                
-                    border: solid 1px #000;
-                   grid-row-start: 6;
-                   grid-column-start: 2;
-                
-                   grid-row-end: 7;
-                   grid-column-end: 4;
-                   justify-self: center;
-                   margin-top: 10px;
-                }
-                #item-8 {
-                
-                    border: solid 1px #000;
-                   grid-row-start: 6;
-                   grid-column-start: 4;
-                
-                   grid-row-end: 7;
-                   grid-column-end: 5;
-                   justify-self: center;
-                }
+.portatexto {
+display: flex;
+justify-content: space-around;
 
 
-            .p1{
-                color: white;
-                font-size: 32px;
-               
-            }
-            .p2 {
-                color: #EF9919;
-                font-size: 32px;
-                font-weight: bold;
-                }
-            
-                .subtitulo {
-                    color: white;
-                    font-size: 45px;
-                }
-          
-                .animacio { 
-                    display: none;
-                }
-
-        }
+}

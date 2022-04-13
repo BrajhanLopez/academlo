@@ -1,0 +1,456 @@
+@media (max-width: 768px) {
+
+
+
+
+
+.header {
+    height: 60px;
+    width: 100%;
+    justify-content: flex-end;
+    
+}
+
+.ul {
+    flex-direction: column;
+    background-color: #2c3e50;
+    position: fixed;
+    left: 0;
+    top: 60px;
+    width: 100%;
+    align-items: center;
+    padding: 0;
+    height: calc(100% - 60px);
+    overflow-y: auto;
+
+    left: 100%;
+    transition: left 0.3s;
+    }
+
+    .li {
+        line-height: 70px;
+
+    }
+    .button {
+        display: block;
+
+    }
+    
+    .activarboton{
+       left: 0;
+        
+        
+    }
+    .div-logo {
+       margin-right: 38vw; 
+
+    }
+
+.logo {
+
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+
+    .div-contenedor {
+        
+        width: 350px;
+        height: 580px;
+       /*border: solid 1px #000;*/
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-rows: 130px 1fr 10px 1fr 1fr 80px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        
+        }
+
+        .home-section {
+            /*  width: 760px;*/
+              width: 100%;
+              height: 600px;
+              background-image: url("/assets/image/Estructurahome mobile.png");
+              background-repeat: no-repeat;
+              background-position: center top 30px;
+             /* background-color: #93d4bd;*/
+             
+          
+          }
+
+
+          #item-0 {
+                
+           
+           grid-row-start: 1;
+           grid-column-start: 1;
+        
+           grid-row-end: 2;
+           grid-column-end: 5;
+           
+        }
+        #item-1 {
+        
+            
+           grid-row-start: 4;
+           grid-column-start: 2;
+       
+           grid-row-end: 6;
+           grid-column-end: 4;
+           justify-self: center;
+           align-self: center;
+        }
+        #item-2 {
+        
+            
+           grid-row-start: 3;
+           grid-column-start: 1;
+        
+           grid-row-end: 4;
+           grid-column-end: 5;
+           
+        }
+        #item-3 {
+        
+            
+           grid-row-start: 2;
+           grid-column-start: 1;
+        
+           grid-row-end: 3;
+           grid-column-end: 5;
+           text-align: center;
+        }
+        #item-4 {
+        
+           
+            
+           grid-row-start: 4;
+           grid-column-start: 1;
+        
+           grid-row-end: 6;
+           grid-column-end: 2;
+            justify-self: end;
+           
+        }
+        #item-5 {
+        
+            
+           grid-row-start: 4;
+           grid-column-start: 4;
+        
+           grid-row-end: 6;
+           grid-column-end: 5;
+           align-self: center;
+        }
+        #item-6 {
+        
+            
+           grid-row-start: 6;
+           grid-column-start: 1;
+        
+           grid-row-end: 7;
+           grid-column-end: 2;
+        
+           justify-self: center;
+           
+        }
+        #item-7 {
+        
+           
+           grid-row-start: 6;
+           grid-column-start: 2;
+        
+           grid-row-end: 7;
+           grid-column-end: 4;
+           justify-self: center;
+           margin-top: -10px;
+           
+        }
+        #item-8 {
+        
+           
+           grid-row-start: 6;
+           grid-column-start: 4;
+        
+           grid-row-end: 7;
+           grid-column-end: 5;
+           justify-self: center;
+        }
+
+
+.foto {
+    height: 220px;
+    width: 160px;
+    border-radius: 50px;
+}
+
+.p1 {
+    font-size: 30px;
+}
+.p2 {
+    font-size: 30px;
+}
+.subtitulo {
+    font-size: 17px;
+    font-weight: semi-bold;
+}
+.caja1{
+width: 90px;
+height: 35px;
+
+} 
+
+
+
+.negro {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.mostaza{
+    font-size: 12px;
+    line-height: 10px;
+}
+
+.link {
+    width: 20px;
+    height: 20px;
+}
+
+.div-link{
+width: 35px;
+height: 35px;
+
+line-height:42px;
+}
+
+.popa {
+    width: 100%;
+}
+
+.css-input {
+    width: 98%;
+    margin-left: 5px;
+}
+
+.popa p {
+   font-size: 20px;
+}
+
+.btn-listo {
+    width: 30%;
+}
+
+.div-habilidades{
+width: 90%;
+gap: 8px;
+}
+
+.progressweb {
+    width: 100%;
+}
+
+.habp
+{
+    font-size: 18px;
+}
+
+.porhabi 
+{
+    position: absolute;
+    right: 20%;
+    margin-left:0;
+
+}
+
+.porhabi2 
+{
+    position: absolute;
+    right: 2%;
+    margin-left:0;
+}
+
+.porhabi3 
+{
+    position: absolute;
+    right: 20%;
+    margin-left:0;
+}
+
+.porhabi4 
+{
+    position: absolute;
+    right: 25%;
+    margin-left:0;
+}
+
+.imagenwi {
+
+    width: 70px;
+    height: 70px;
+    margin-bottom: 0;
+}
+
+.exptext {
+    font-size: 16px;
+}
+
+.anual {
+    font-size: 16px;
+}
+
+.experiencia {
+    height: 400px;
+}
+
+.porta{
+    width: 350px;
+    height: 350px;
+}
+
+.portafolio-img{
+flex-direction: column;
+align-items: center;
+gap: 40px;
+}
+
+.footer {
+    width: 100%;
+}
+
+.redes-sociales {
+    margin: 0;
+}
+
+.section2 h2 { 
+    font-size: 30px;
+}
+
+.section2 {
+    padding: 0px 30px;
+
+}
+
+.parracerca {
+font-size: 16px;
+}
+
+.estudiotitulo {
+font-size: 30px;
+
+}
+.estudios1 h3 {
+    text-align: center;
+font-size: 16px;
+
+}
+.parr {
+    text-align: center;
+
+}
+.estudios2 h3 {
+    text-align: center;
+font-size: 16px;
+
+}
+
+.habilidades h2 {
+    font-size: 30px;
+}
+
+.experiencia h2 {
+    font-size: 30px;
+}
+
+.portatexto {
+display: block;
+text-align: center;
+
+}
+
+.portaimg1 {
+position: relative;
+bottom: 780px;
+
+}
+
+.portaimg2 {
+    position: relative;
+    bottom: 415px;
+    
+}
+
+
+.portaimg3 {
+    position: relative;
+    bottom: 55px;
+    
+}
+
+
+
+
+}
+
+
+@media (min-width: 800px) {
+
+    .animacio {
+display: block;
+white-space: nowrap;
+border-right: 4px solid;
+width: 86ch;
+animation: typing 2s steps(86), blink .5s infinite step-end alternate;
+overflow: hidden;
+}
+
+@keyframes typing {
+from { width: 0; }
+}
+
+@keyframes blink {
+50% {border-color: transparent;}
+
+}
+
+}
+
+@media (max-width: 1130px) {
+
+    .portafolio-img{
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        }
+
+        .portatexto {
+            display: block;
+            text-align: center;
+            
+            }
+            
+            .portaimg1 {
+            position: relative;
+            bottom: 965px;
+            
+            }
+            
+            .portaimg2 {
+                position: relative;
+                bottom: 510px;
+                
+            }
+            
+            
+            .portaimg3 {
+                position: relative;
+                bottom: 55px;
+                
+            }
+
+}
+
+
