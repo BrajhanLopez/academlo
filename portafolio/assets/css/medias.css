@@ -418,7 +418,8 @@ from { width: 0; }
 
 }
 
-@media (max-width: 1130px) {
+
+@media (min-width: 769px) and (max-width: 1134px) {
 
     .portafolio-img{
         flex-direction: column;
@@ -452,5 +453,4 @@ from { width: 0; }
             }
 
 }
-
 
