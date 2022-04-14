@@ -1,0 +1,78 @@
+@media (min-width: 350px) and (max-width: 767px) {
+
+body {
+grid-template-rows: 60px auto 60px;
+
+}
+
+
+
+
+
+.menu-hamburguesa{
+display: block;
+
+}
+
+.img-logo {
+    width: 100px;
+    height: 40px;
+   margin: 0;
+}
+
+.ul {
+   flex-direction: column;
+    background-color: #190F3B;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 60px;
+    align-items: center;
+    height: calc(100% - 60px);
+    column-gap: 10px;
+    left: 100%;
+}
+.a{
+    
+    color: white;
+}
+
+
+
+.li {
+    padding-right: 15px;
+    margin-top: 25px;
+    line-height: 40px;
+   
+}
+
+.iconos {
+margin: 0;
+column-gap: 0.5rem;
+}
+
+.modo-dianoche {
+font-size: 22px;
+line-height: 40px;
+}
+.carrito {
+    font-size: 22px;
+    line-height: 40px;
+}
+.menu-hamburguesa{
+    font-size: 22px;
+    line-height: 40px;
+    color: #58B0F9;
+}
+
+.activarboton{
+    left: 0;
+     
+     
+ }
+
+
+
+
+
+}

@@ -1,0 +1,51 @@
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+min-height: 100%;
+display: grid;
+gap: 10px;
+grid-template-rows: 80px auto 80px;
+grid-template-areas: 
+"header"
+"main"
+"footer";
+
+
+}
+
+
+.guia {
+    
+    /*text-align: center;*/
+    /*padding: 10px;*/
+}
+
+.header {
+    grid-area: header;
+    background-color:GhostWhite;
+}
+
+.main {
+    grid-area: main;
+    background-color: burlywood;
+
+}
+
+.footer{
+    grid-area: footer;
+    background-color: cornflowerblue;
+}
+
+
+
