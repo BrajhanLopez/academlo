@@ -25,11 +25,9 @@ grid-template-areas:
 }
 
 
-.guia {
-    
-    /*text-align: center;*/
-    /*padding: 10px;*/
-}
+
+
+
 
 .header {
     grid-area: header;
