@@ -3,6 +3,9 @@
     justify-content: space-between;
     padding: 10px;
     width: 100%;
+    position: fixed;
+    z-index: 20;
+   /* visibility: hidden;*/
 }
 
 /* LOGO*/
