@@ -565,6 +565,18 @@ padding: 5px 0;
          display: none;
        }
 
+
+       .footer {
+         height: 100px;
+       }
+
+
+       .li-p {
+border-left: none;
+border-top: 1px solid #190F3B;
+
+       }
+
 }
 
 

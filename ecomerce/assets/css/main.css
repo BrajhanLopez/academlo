@@ -76,7 +76,7 @@ text-shadow: 2px 2px 2px #5EB3FA;
 
       .ul-productos {
           
-background-color: #190F3B;
+
 list-style: none;
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(186px, 1fr));
@@ -87,13 +87,21 @@ text-align: center;
 }
 
 .li-p > * {
-color: white;
+    color: #190F3B;
+    
+
+
+}
+
+
+.li-p > h3:hover {
+color: #3498db;
 
 
 }
 
 .li-p {
-border-left: 2px solid white;
+border-left: 2px solid #190F3B;
 align-self: center;
 cursor: pointer;
 
@@ -171,4 +179,9 @@ cursor: pointer;
 
    grid-template-rows: 1fr 1fr 10px 1fr 50px;
    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+section[id]{
+            
+    scroll-margin-top: 80px;
 }
