@@ -518,15 +518,42 @@ p.ism-badge a.ism-link:hover {
   .ism-slider {
     /*height: 500px;*/
     height: 17rem !important; 
+    
     }
     
-    .image {
-     /* height: 500px;*/
-     height: 17rem !important;
-     clip-path: inset(0 10%);
-    
+      .image1 {
+      height: 17rem !important;
+      content: url(../image/slider1movil.jpg)  !important;
+      
     }
   
+    .image2 {
+      height: 17rem !important;
+      content: url(../image/slide2movil.jpg)  !important;
+      
+    }
+
+    .image3 {
+      height: 17rem !important;
+      content: url(../image/slide3movil.jpg)  !important;
+      
+    }
+
+
+    .home-section p {
+
+font-size: 30px;  
+padding: 5px 0;    
+    }
+
+    .boton-descubrir {
+      width: 200px;
+      font-size: 15px;
+      height: 50px;
+      line-height: 16px;
+      font-weight: normal;
+    }
+
 }
 
 
