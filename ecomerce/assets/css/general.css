@@ -15,7 +15,7 @@ body {
 min-height: 100%;
 display: grid;
 gap: 10px;
-grid-template-rows: 80px auto 80px;
+grid-template-rows: 80px auto 150px;
 grid-template-areas: 
 "header"
 "main"
@@ -42,7 +42,7 @@ grid-template-areas:
 
 .footer{
     grid-area: footer;
-    background-color: cornflowerblue;
+    background-color: #0E0E13;
 }
 
 

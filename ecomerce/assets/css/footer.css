@@ -1,0 +1,38 @@
+.info-footer {
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.caja ul {
+    list-style: none;
+}
+
+.caja ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.cuidad {
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.creditos {
+    color: white;
+    font-size: 14px;
+    font-weight: 100;
+   display: block;
+   text-align: center;
+   
+}
+
+.red {
+color: white;
+font-size: 25px;
+margin-left: 5px;
+margin-top: 5px;
+}
