@@ -1,0 +1,115 @@
+.menu-carrito {
+    display: grid; 
+position: fixed;
+z-index: 100;
+   grid-template-rows: 50px 60px 5fr 50px 50px;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   width: 420px;
+   right: -420px;
+   padding: .5rem 2rem 3.5rem 2rem;
+   background-color: GhostWhite;
+   height: 100%;
+}
+
+
+.cerrar-menu-carrito {
+    width: 32px;
+    border: none;
+    justify-self: right;
+    background-color: GhostWhite; 
+    grid-row-start: 1;
+    grid-column-start: 1;
+ 
+    grid-row-end: 2;
+    grid-column-end: 5;
+    cursor: pointer;
+}
+
+.fa-solid{
+font-size: 30px;
+
+}
+
+
+.titulo-menu-carrito{
+    background-color: GhostWhite; 
+    justify-self: center;
+    grid-row-start: 2;
+    grid-column-start: 1;
+ 
+    grid-row-end: 3;
+    grid-column-end: 5;
+}
+
+
+.detalle-menu-carrito {
+
+    background-color: #eceaea; 
+    border-radius: 20px;
+    grid-row-start: 3;
+    grid-column-start: 1;
+ 
+    grid-row-end: 4;
+    grid-column-end: 5;
+}
+
+.total-menu-carrito {
+    background-color: white; 
+    grid-row-start: 4;
+    grid-column-start: 1;
+ 
+    grid-row-end: 5;
+    grid-column-end: 5;
+}
+
+.boton-compra{
+    width: 220px;
+    height: 50px;
+   
+    grid-row-start: 5;
+    grid-column-start: 1;
+ 
+    grid-row-end: 6;
+    grid-column-end: 5;
+    justify-self: center;
+
+    border: none;
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+
+
+
+    
+}
+
+.boton-compra:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+
+}
+
+.activa-cerrar-carrito {
+    right: -420px;
+}
+
+.activa-abrir-carrito {
+    right: 0px;
+}

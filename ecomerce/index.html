@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./assets/css/medias.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/carrito.css">
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,6 +19,8 @@
 
 <script defer src="https://kit.fontawesome.com/accc33d0a0.js" crossorigin="anonymous"></script>
 <script defer src="./assets/js/funciones.js"></script>
+<script defer src="./assets/js/carrito.js"></script>
+<script defer src="./assets/js/sweetalert2.min.js"></script>
 </head>
 <!--Carrusel-->
 
@@ -26,6 +29,56 @@
 
 
 <body>
+<div id="div-carrito" class="menu-carrito">
+    <button class="cerrar-menu-carrito">
+        <i class="fa-solid fa-xmark"></i>
+    </button>
+    <h2 class="titulo-menu-carrito">Mis Compras</h2>
+    <div id="detalle-menu-carrito" class="detalle-menu-carrito">
+
+        <!--========PROBANDO=========-->
+
+        <!--
+        <div class="contenedor-producto-carrito">
+            <img class="imagen-producto-carrito" src="./assets/image/producto1.png" alt="">  
+
+            <div class="desc-producto-carrito">  
+                <h3 class="nombre-producto-carrito">Computadora de oficina</h3>           
+                <h2 class="precio-producto-carrito"> S/. 2,000  </h2>
+                <p>SubTotal: 2,000</p>
+                <button class="boton-menos">-</button>
+                <span class="numero-unidades">1 Unidad(es)</span>
+                <button class="boton-mas">+</button>
+                <hr>
+                <button class="borrar-producto">Borrar Producto</button>
+            </div>  
+      </div>          
+        
+    -->
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+    </div>
+    <div class="total-menu-carrito">
+<p>Total Compra: <span class="montototal"> 0</span></p>
+
+    </div>
+    <button class="boton-compra">Procesar Compra</button>
+</div>
+
+<div class="body">
+
  <header class="header guia">
 <div class="contenedor-logo">
 <a href="">   
@@ -121,8 +174,8 @@
 
     </div>
 <br> <br>
-<div class="productos-contenedor">
-    <div class="grid-productos">
+<div id="productos-contenedor" class="productos-contenedor">
+    <div id="grid-productos" class="grid-productos">
 
     <article class="producton">
         <div class="img-producto">
@@ -133,7 +186,7 @@
         </button>
         <div class="desc-producto">
             <h2 class="precio-producto"> 
-              S/. 2,000
+              S/. 2000
             <span class="stock-producto">
             | Stock: 1
             </span>
@@ -145,6 +198,7 @@
         </div>
 
     </article>
+
     <article class="producton">
         <div class="img-producto">
             <img class="image-producto" src="./assets/image/producto2.png" alt="">
@@ -154,7 +208,7 @@
         </button>
         <div class="desc-producto">
             <h2 class="precio-producto"> 
-              S/. 4,000
+              S/. 4000
             <span class="stock-producto">
             | Stock: 1
             </span>
@@ -164,12 +218,10 @@
             <p>COMPUTADORA VALORANT INTEL I3 10100F 8GB 256GB SSD T. VIDEO RX550 4GB</p>
             
         </div>
-
-       
-
-
-
+    
     </article>
+
+
     <article class="producton">
         <div class="img-producto">
             <img class="image-producto" src="./assets/image/producto3.png" alt="">
@@ -179,7 +231,7 @@
         </button>
         <div class="desc-producto">
             <h2 class="precio-producto"> 
-              S/. 2,500
+              S/. 2500
             <span class="stock-producto">
             | Stock: 1
             </span>
@@ -202,7 +254,7 @@
         </button>
         <div class="desc-producto">
             <h2 class="precio-producto"> 
-              S/. 6,000
+              S/. 6000
             <span class="stock-producto">
             | Stock: 1
             </span>
@@ -299,6 +351,6 @@
 
 </footer>
 
-
+</div>
 </body>
 </html>

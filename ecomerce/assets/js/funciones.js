@@ -13,3 +13,24 @@ li.forEach(lista =>{
         ul.classList.toggle('activarboton')
     })
 })
+
+
+const cerrarcarrito=document.querySelector('.cerrar-menu-carrito')
+const menucarrito=document.querySelector('.menu-carrito')
+const abrircarrito=document.querySelector('.carrito')
+
+
+// cerrar carrito
+cerrarcarrito.addEventListener('click',()=>{
+menucarrito.classList.remove('activa-abrir-carrito');
+menucarrito.classList.add('activa-cerrar-carrito');
+
+})
+
+
+// abrir carrito
+abrircarrito.addEventListener('click',()=>{
+    menucarrito.classList.remove('activa-cerrar-carrito');
+    menucarrito.classList.add('activa-abrir-carrito');
+
+    })

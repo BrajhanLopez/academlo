@@ -185,3 +185,104 @@ section[id]{
             
     scroll-margin-top: 80px;
 }
+
+
+.detalle-menu-carrito {
+/*display: grid;
+height: auto;*/
+display: flex;
+flex-direction: column;
+justify-content: center;
+overflow: scroll;
+
+}
+
+
+
+/*CLASES CREADAS PARA EL CARRITO*/
+
+.contenedor-producto-carrito {
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+
+.imagen-producto-carrito {
+width: 170px;
+height: 155px;
+
+border-top: 1px solid white;
+border-bottom: 1px solid white;
+
+}
+
+.desc-producto-carrito {
+   
+    width: 170px;
+    height: 155px; 
+    text-align: center;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    
+}
+
+.boton-mas {
+    width: 25px;
+    height: 25px;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+	
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 6px;
+}
+
+.boton-mas:hover {
+    background-color:#bfffb7;
+}
+
+.boton-menos {
+    width: 25px;
+    height: 25px;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+	
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 6px;
+}
+.boton-menos:hover {
+    
+	background-color:#f89393;
+}
+
+.numero-unidades{
+margin-bottom: 8px;
+}
+
+.borrar-producto {
+    background-color: rgb(221, 158, 158);
+    border-radius: 5px;
+    border: 1px solid rgb(159, 160, 160);
+    cursor: pointer;
+}
+
+.borrar-producto:hover {
+    background-color: #fb6d6d;
+    
+}
+
+.total-menu-carrito p {
+    font-size: 30px;
+    text-align: right;
+
+}
+
+.montototal {
+    font-weight: bold;
+}

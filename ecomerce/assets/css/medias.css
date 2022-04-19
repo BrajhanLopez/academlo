@@ -1,9 +1,9 @@
 @media (min-width: 350px) and (max-width: 767px) {
 
-body {
-grid-template-rows: 60px auto 60px;
-
-}
+    .body {
+        grid-template-rows: 60px auto 60px;
+        
+        }
 
 
 
@@ -70,6 +70,7 @@ line-height: 40px;
      
      
  }
+
 
 
 
