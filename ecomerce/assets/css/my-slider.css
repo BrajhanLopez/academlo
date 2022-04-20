@@ -577,6 +577,11 @@ border-top: 1px solid #190F3B;
 
        }
 
+
+       .circulo-contador{ 
+         right: 35px;
+         top: 0;
+       }
    
 
 }

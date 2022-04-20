@@ -1,0 +1,119 @@
+.dark {
+    background-color: #2b1d5a;
+    color: white;
+}
+
+.dark .menu-carrito {
+    background-color: #190F3B;
+    color: white;
+}
+
+.dark .menu-carrito .cerrar-menu-carrito {
+    background-color: #190F3B;
+    color: white;
+
+}
+
+.dark .menu-carrito .titulo-menu-carrito {
+    background-color: #190F3B;
+    color: white;
+
+}
+
+
+.dark .menu-carrito .detalle-menu-carrito {
+    background-color: #2b1d5a;
+    color: white;
+}
+
+.dark .menu-carrito .total-menu-carrito {
+    background-color: #190F3B;
+    color: white;
+}
+
+.dark .body .header {
+    background-color: #190F3B;
+    color: white;
+}
+
+.dark .body .header .ul .li .a{
+    background-color: #190F3B;
+    color: white;
+}
+
+.dark .body .header .ul .li .a:hover{
+    
+    color: #088DF7;
+}
+
+.dark .body .header .iconos .modo-dianoche{
+    
+    color: white;
+}
+
+.dark .body .header .iconos .carrito{
+    
+    color: white;
+}
+
+
+.dark .body .main {
+    background-color: #2b1d5a;
+    color: white;
+
+}
+
+.dark .body .main .home-section p {
+    background-color: #2b1d5a;
+    color: white;
+
+}
+
+.dark .body .main .productos-section h1{
+color: white;
+
+}
+
+.dark .body .main .productos-section .productos-contenedor ul li h3{
+    color: white;
+    
+    }
+    .dark .body .main .productos-section .productos-contenedor ul li span{
+        color: white;
+        
+        }
+
+        .dark .body .main .productos-section .productos-contenedor ul li h3:hover{
+            color: #088DF7;
+            
+            }
+
+
+
+    .dark .body .main .productos-section .productos-contenedor .grid-productos .producton .img-producto
+    {
+        background-color: #503a97;
+                color: white;
+                
+    }
+
+    .dark .body .main .productos-section .productos-contenedor .grid-productos .producton .desc-producto
+    {
+        background-color: #503a97;
+                color: white;
+                
+    }
+
+    .dark .body .main .productos-section .productos-contenedor .grid-productos .producton h3
+    {
+        background-color: #503a97;
+                color: white;
+                text-shadow: 2px 2px 2px #06589b;
+                
+    }
+
+
+    .dark .body .main .productos-section .productos-contenedor .grid-productos .producton .agregar-carrito{
+color: rgb(193, 193, 193);
+
+    }

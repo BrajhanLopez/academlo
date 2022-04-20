@@ -11,16 +11,20 @@
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
     <link rel="stylesheet" href="./assets/css/carrito.css">
+<link rel="stylesheet" href="./assets/css/darkmode.css">
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
 
+<script defer src="./assets/js/storage.js"></script>
+
+
 <script defer src="https://kit.fontawesome.com/accc33d0a0.js" crossorigin="anonymous"></script>
 <script defer src="./assets/js/funciones.js"></script>
 <script defer src="./assets/js/carrito.js"></script>
-<script defer src="./assets/js/sweetalert2.min.js"></script>
+
 </head>
 <!--Carrusel-->
 
@@ -28,7 +32,7 @@
 <script src="./assets/js/ism-2.2.min.js"></script>
 
 
-<body>
+<body class="">
 <div id="div-carrito" class="menu-carrito">
     <button class="cerrar-menu-carrito">
         <i class="fa-solid fa-xmark"></i>
@@ -79,6 +83,7 @@
 
 <div class="body">
 
+<!-- COMIENZA EL HEADER -->
  <header class="header guia">
 <div class="contenedor-logo">
 <a href="">   
@@ -105,7 +110,7 @@
     <i class="fa-solid fa-circle-chevron-down"></i>
 
     </button>
-
+<span class="circulo-contador">0</span>
 </div>
  </header>
 
@@ -146,28 +151,28 @@
 <br><br><br><br>
 <section class="productos-section" id="productos">
 <h1 class="productos-titulo">Descubra nuestros productos</h1>
-    <div class="productos-contenedor">
+<div class="productos-contenedor">
 
         <ul class="ul-productos">
 
-            <li class="li-p">
+            <li class="li-p all">
                 <h3>Mostrar todo</h3>
                 <span>Mostrar todos los productos</span>
             </li>
 
-            <li class="li-p">
+            <li class="li-p comp">
                 <h3>Computadoras</h3>
-                <span>3 productos</span>
-            </li>
-
-            <li class="li-p">
-                <h3>Laptops</h3>
-                <span>5 productos</span>
-            </li>
-
-            <li class="li-p">
-                <h3>Monitores</h3>
                 <span>2 productos</span>
+            </li>
+
+            <li class="li-p lap">
+                <h3>Laptops</h3>
+                <span>2 productos</span>
+            </li>
+
+            <li class="li-p moni">
+                <h3>Monitores</h3>
+                <span>1 productos</span>
             </li>
 
         </ul>
@@ -177,7 +182,7 @@
 <div id="productos-contenedor" class="productos-contenedor">
     <div id="grid-productos" class="grid-productos">
 
-    <article class="producton">
+    <article class="producton p1">
         <div class="img-producto">
             <img class="image-producto" src="./assets/image/producto1.png" alt="">
         </div>
@@ -188,7 +193,7 @@
             <h2 class="precio-producto"> 
               S/. 2000
             <span class="stock-producto">
-            | Stock: 1
+            | Stock: 5
             </span>
 
             </h2>
@@ -199,7 +204,7 @@
 
     </article>
 
-    <article class="producton">
+    <article class="producton p2">
         <div class="img-producto">
             <img class="image-producto" src="./assets/image/producto2.png" alt="">
         </div>
@@ -210,7 +215,7 @@
             <h2 class="precio-producto"> 
               S/. 4000
             <span class="stock-producto">
-            | Stock: 1
+            | Stock: 2
             </span>
 
             </h2>
@@ -222,7 +227,7 @@
     </article>
 
 
-    <article class="producton">
+    <article class="producton p3">
         <div class="img-producto">
             <img class="image-producto" src="./assets/image/producto3.png" alt="">
         </div>
@@ -233,7 +238,7 @@
             <h2 class="precio-producto"> 
               S/. 2500
             <span class="stock-producto">
-            | Stock: 1
+            | Stock: 3
             </span>
 
             </h2>
@@ -245,7 +250,7 @@
         
 
     </article>
-    <article class="producton">
+    <article class="producton p4">
         <div class="img-producto">
             <img class="image-producto" src="./assets/image/producto4.png" alt="">
         </div>
@@ -256,7 +261,7 @@
             <h2 class="precio-producto"> 
               S/. 6000
             <span class="stock-producto">
-            | Stock: 1
+            | Stock: 4
             </span>
 
             </h2>
@@ -271,7 +276,7 @@
 
     </article>
 
-    <article class="producton">
+    <article class="producton p5">
         <div class="img-producto">
             <img class="image-producto" src="./assets/image/producto6.png" alt="">
         </div>
@@ -282,7 +287,7 @@
             <h2 class="precio-producto"> 
               S/. 600
             <span class="stock-producto">
-            | Stock: 1
+            | Stock: 5
             </span>
 
             </h2>

@@ -193,7 +193,7 @@ height: auto;*/
 display: flex;
 flex-direction: column;
 justify-content: center;
-overflow: scroll;
+/*overflow: scroll;*/
 
 }
 
@@ -286,3 +286,14 @@ margin-bottom: 8px;
 .montototal {
     font-weight: bold;
 }
+
+.subtotal {
+    color: crimson;
+    font-weight: bold;
+}
+
+.fa-solid:hover{
+color: #5EB3FA;
+}
+
+

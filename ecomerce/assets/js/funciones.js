@@ -5,6 +5,7 @@ const li =document.querySelectorAll('.li')
 botonhamburguesa.addEventListener('click',()=>{
     ul.classList.toggle('activarboton')
     
+    
 })
 
 
