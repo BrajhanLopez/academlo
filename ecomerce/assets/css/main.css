@@ -297,3 +297,39 @@ color: #5EB3FA;
 }
 
 
+.alert {
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    top: 80px;
+    color: #491217;
+    background-color: #F8D7DA;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+   
+    z-index: 30;
+   
+}
+
+.alert2 {
+    width: 37%;
+    height: 50px;
+    position: sticky;
+    top: 85px;
+    left: 100%;
+    color: #491217;
+    background-color: #F8D7DA;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    z-index: 100;
+   
+}
+
+
+.hide {
+   
+    display: none;
+    
+}

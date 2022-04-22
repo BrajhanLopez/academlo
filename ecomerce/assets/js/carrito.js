@@ -62,6 +62,14 @@ agregaalarreglo(newItem)
 
 function agregaalarreglo(newItem)
 {
+const aler = document.querySelector('.alert')
+setTimeout(function(){
+aler.classList.add('hide')
+},2000)
+aler.classList.remove('hide')
+
+
+
 
 //const inputelemento = gridcarrito.getElementsByClassName('numero-unidades')
 for (let i = 0; i < carrito.length; i++) {
@@ -310,13 +318,22 @@ for (let i = 0; i < carrito.length; i++) {
 }
 */
 
+const aler2 = document.querySelector('.alert2')
+setTimeout(function(){
+aler2.classList.add('hide')
+},2000)
+aler2.classList.remove('hide')
+
+
     
     carrito.splice(0,carrito.length)
     contarcarrito()
     renderCarrito()
     //elimina el local storage
     localStorage.removeItem('carrito')
-window.alert("Gracias por su compra");
+//window.alert("Gracias por su compra");
+
+
 
 }
 
