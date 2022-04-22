@@ -1,5 +1,37 @@
+  window.addEventListener('load',()=>{
+
+    const loader = document.querySelector('.containeer')
+
+
+    setTimeout(function(){
+        loader.classList.add('hiden')
+        },3000) 
+        loader.classList.remove('hiden')
+
+
+})
+
+
+   
+
+
+
+
+
+
+
+
+
+
 
 //selecionamos el boton (+) y el div donde se va agregar
+
+
+
+
+
+
+
 const botonadd = document.querySelectorAll('.agregar-carrito')
 const gridcarrito = document.querySelector('.detalle-menu-carrito')
 let numstock = document.querySelectorAll('.stock-producto')
@@ -390,3 +422,5 @@ document.querySelector('.modo-dianoche').addEventListener('click',()=>{
 dark.classList.toggle('dark')
 
 })
+
+
